@@ -2,8 +2,12 @@
 
 An example of my work for an immigration website.
 
-This perticular template is hard-coded, and does not involve any templating technologies like Bootstrap etc. It does however involves certain languages that were used to build frotend and backend of this template website.
-The languages used are as follows:
+This perticular template is hard-coded from scratch, and does not involve any templating technologies like Bootstrap etc. The project involves programming languages like Jquery, CSS, HTML5 and Vanilla JS for frontend which works on top of an Python Flask based backend. 
 
 ## Front-end:
+### JQuery for faster animations, client based tasks.
+### CSS for better UX/UI.
+### HTML for structuring.
 
+## Back-end:
+### Python-Flask.
