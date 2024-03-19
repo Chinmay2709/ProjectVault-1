@@ -1,0 +1,26 @@
+
+
+.assesment-h2_editor{
+    padding: 10px;
+    font-size: 40px;
+    text-shadow: 0 0 5px #555555;
+    color: #ffffff;
+}
+
+.assesment-button_editor{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 0 0 5px 0 #555555;
+}
+ 
+.highlight{
+
+    color: #0D47A1;
+
+}

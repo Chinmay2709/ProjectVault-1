@@ -1,0 +1,17 @@
+
+
+@keyframes Nav_animation {
+    
+    0%{
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+    
+}
+

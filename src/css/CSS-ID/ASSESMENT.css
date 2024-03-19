@@ -1,0 +1,24 @@
+#assesment{
+    
+    display: flex;
+    width:90%;
+    height: 400px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #999999;
+    background-image: url("https://images.pexels.com/photos/5313173/pexels-photo-5313173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#assesment_ad{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, #90A4AE 20%, rgba(255,255,255,0));
+}

@@ -1,0 +1,31 @@
+
+
+.map-element_editor{
+    
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+
+}
+
+.map-h2_editor{
+
+    padding: 5px;
+    margin: 10px;
+    color: #333333;
+
+}
+
+.map-p_editor{
+
+    margin: 20px;
+    color: #555555;
+
+}

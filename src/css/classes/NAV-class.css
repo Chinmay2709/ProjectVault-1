@@ -1,0 +1,36 @@
+.nav1-editor{
+
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.nav2-button-container{
+
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav2-button-editor{
+
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.nav2-editor{
+
+    cursor: pointer;
+
+}
+
+.drop-down_editor{
+
+    margin: 5px;
+    padding: 10px;
+
+}

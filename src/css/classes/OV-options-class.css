@@ -1,0 +1,120 @@
+
+
+.ovo-1-foreground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: unset;
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000000;
+    text-align: center;
+}
+
+.card-element-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-image: url("/Include/Images/sponsership.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    padding-top: 20px;
+    width: 90%;
+    height: 90%;
+    color: #000000;
+}
+
+.ovo-2-foreground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: unset;
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000000;
+    text-align: center;
+}
+
+.card-element-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-image: url("/Include/Images/passport.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    padding-top: 20px;
+    width: 90%;
+    height: 90%;
+    color: #000000;
+}
+
+.ovo-3-foreground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: unset;
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000000;
+    text-align: center;
+}
+
+.card-element-container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-image: url("/Include/Images/skill.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding-top: 20px;
+    width: 90%;
+    height: 90%;
+    color: #000000;
+}
+
+.ovo-card-head{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+}
+
+.ovo-para-test{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.ovo-card-button{
+    height: 50px;
+    width: 80%;
+    box-shadow: 0 0 5px 0 #000000;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        
+        // {
+        //     "name": "VMC",
+        //     "request": "launch",
+        //     "type": "msedge",
+        //     "url": "http://localhost:80/",
+        //     "webRoot": "${workspaceFolder}"
+        // },
+        {
+            "name": "VMC",
+            "request": "launch",
+            "type": "firefox",
+            "url": "http://localhost:80/",
+            "webRoot": "${workspaceFolder}"
+        },
+    
+    ]
+}

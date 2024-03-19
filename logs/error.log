@@ -1,0 +1,15 @@
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182] mod_wsgi (pid=25008): Exception occurred processing WSGI script 'C:/xampp/htdocs/VMC/web.wsgi'.
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182] Traceback (most recent call last):\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]   File "C:\\xampp\\htdocs\\VMC\\Lib\\site-packages\\flask\\app.py", line 2213, in __call__\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]     return self.wsgi_app(environ, start_response)\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]   File "C:\\xampp\\htdocs\\VMC\\Lib\\site-packages\\flask\\app.py", line 2193, in wsgi_app\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]     response = self.handle_exception(e)\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]   File "C:\\xampp\\htdocs\\VMC\\Lib\\site-packages\\flask\\app.py", line 2190, in wsgi_app\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]     response = self.full_dispatch_request()\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]   File "C:\\xampp\\htdocs\\VMC\\Lib\\site-packages\\flask\\app.py", line 1487, in full_dispatch_request\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]     return self.finalize_request(rv)\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]   File "C:\\xampp\\htdocs\\VMC\\Lib\\site-packages\\flask\\app.py", line 1506, in finalize_request\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]     response = self.make_response(rv)\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]   File "C:\\xampp\\htdocs\\VMC\\Lib\\site-packages\\flask\\app.py", line 1801, in make_response\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182]     raise TypeError(\r
+[Sun Jul 30 15:15:29.930657 2023] [wsgi:error] [pid 25008:tid 1980] [client 127.0.0.1:54182] TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.\r

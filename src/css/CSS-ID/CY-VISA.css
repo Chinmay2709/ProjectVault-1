@@ -1,0 +1,114 @@
+
+#choose_your_VISA{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffffff, #E8EAF6 50%, #ffffff);
+    
+}
+
+
+#visa_head{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    padding: 35px;
+
+}
+
+#visa_para{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #555555;
+    width: 90%;
+    margin: 50px;
+    height: fit-content;
+    font-size: 15px;
+
+}
+
+
+
+#ele1_pic{
+
+    width: 250px;
+    height: 250px;
+    background-image: url("/Include/Images/student.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+
+}
+
+#study_visa{
+    
+    background-image: url("/Include/Images/study-permit.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 30px;
+
+}
+
+#ele2_pic{
+
+    width: 250px;
+    height: 250px;
+    background-image: url("/Include/Images/work-permit.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+
+}
+
+#work_visa{
+    background-image: url("/Include/Images/work-visa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 30px;
+}
+
+#ele3_pic{
+
+    width: 250px;
+    height: 250px;
+    background-image: url("/Include/Images/Tourist.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+
+}
+
+#tourist_visa{
+    background-image: url("/Include/Images/tourist_visa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 30px;
+}
+
+#ele4_pic{
+
+    width: 250px;
+    height: 250px;
+    background-image: url("/Include/Images/sponsership-ele.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+
+}
+
+#sponsership{
+    background-image: url("/Include/Images/tourist_visa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 30px;
+}

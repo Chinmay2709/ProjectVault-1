@@ -1,0 +1,118 @@
+@import url("/src/css/Animations/nav-key-frames.css");
+@import url("/src/css/Animations/ovo-key-frames.css");
+@import url("/src/css/Animations/road-map-key-frames.css");
+
+@import url("/src/css/classes/NAV-class.css");
+@import url("/src/css/classes/BANNER-class.css");
+@import url("/src/css/classes/CY-VISA-class.css");
+@import url("/src/css/classes/MAP-class.css");
+@import url("/src/css/classes/ASSESMENT-class.css");
+@import url("/src/css/classes/OV-options-class.css");
+@import url("/src/css/classes/BLOG-class.css");
+@import url("/src/css/classes/FORM-class.css");
+
+
+@import url("/src/css/CSS-ID/NAV.css");
+@import url("/src/css/CSS-ID/BANNER.css");
+@import url("/src/css/CSS-ID/CARDS.css");
+@import url("/src/css/CSS-ID/CY-VISA.css");
+@import url("/src/css/CSS-ID/ASSESMENT.css");
+@import url("/src/css/CSS-ID/OV-options.css");
+@import url("/src/css/CSS-ID/BLOG.css");
+@import url("/src/css/CSS-ID/form.css");
+
+
+
+
+/* @import url("/src/css/CSS-ID/.css"); */
+
+*{
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+
+/* TAGS */
+
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+strong{
+
+    color: #ff2c03;
+
+}
+
+ul{
+    border-radius: 10px;
+    color: #000000;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.4), #000000); */
+    list-style: none;
+}
+
+li{
+
+    padding-left: 30px;
+    margin: 10px;
+    color: #000000;
+    cursor: default;
+    background-image: url("/Include/Images/checkmark.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 20px;
+
+}
+
+hr{
+    width: 5%;
+    color: #555555;
+
+}
+
+h1{
+    color: #222222;
+}
+
+h2{
+    color: #222222;
+}
+
+p{
+    color: #555555;
+}
+
+b{
+    color: #0D47A1;
+}
+
+blockquote{
+    color: #555555;
+}
+
+

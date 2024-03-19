@@ -1,0 +1,69 @@
+
+#other-visa-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ovo-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    padding: 35px;
+}
+
+#ovo-cards{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+}
+
+#ovo-1-background{
+
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000000;
+    height: 0%;
+    width: 100%;
+    /* background: linear-gradient(to bottom right,#455A64,#37474F,#263238); */
+
+}
+
+#ovo-2-background{
+
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000000;
+    height: 0%;
+    width: 100%;
+    background: linear-gradient(to bottom right,#7E57C2,#673AB7,#5E35B1);
+
+}
+
+#ovo-3-background{
+
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000000;
+    height: 0%;
+    width: 100%;
+    background: linear-gradient(to bottom right,#D32F2F,#C62828,#B71C1C);
+
+}

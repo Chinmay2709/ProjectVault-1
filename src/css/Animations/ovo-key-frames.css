@@ -1,0 +1,61 @@
+/* Card-1 Animation */
+@keyframes ovo-background-animate {
+    
+    from{
+
+        height: 0%;
+        background-color: #607D8B;
+    
+    }
+    to{
+
+        height: 100%;
+        background-color: #7986CB;
+    }
+
+}
+
+@keyframes ovo-background-animate-reverse {
+    
+    from{
+
+        height: 100%;
+        background-color: #7986CB;
+    }
+
+    to{
+
+        height: 0%;
+        background-color: #607D8B;
+
+    }
+
+}
+
+
+
+
+
+/* Cards Text Animation */
+@keyframes ovo-text-color-animate {
+
+    from{
+        color: #000000;
+    }
+
+    to{
+        color: #ffffff;
+    }
+
+}
+@keyframes ovo-text-color-animate-reverse {
+
+    from{
+        color: #ffffff;
+    }
+    
+    to{
+        color: #000000;
+    }
+
+}

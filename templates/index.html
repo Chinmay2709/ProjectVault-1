@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>VMC</title>
+        <link rel="stylesheet" href="/src/css/index.css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+        
+        <script type="module" src="/src/js/index.js" ></script>
+    </head>
+    <body>
+        <header>
+            <nav id="first_nav">
+                <div id="LOGO"></div>
+                <div id="nav1_list">
+                    <div class="nav1-editor" id="about">About</div>
+                    <div class="nav1-editor" id="contact_us">Contact Us</div>
+                    <div class="nav1-editor" id="book">Book an Appointment</div>
+                    <div class="nav1-editor" id="pay">Make a Payment</div>
+                    <input class="nav1-editor" id="login" type="button" value="Login"/>
+                </div>
+            </nav>
+            <nav id="second_nav">
+                <div id="nav2_list">
+                    <div id="Immig_type">
+                        Immigration Type
+                        <div id="Immig_drop">
+                            <div id="drop_list-1">
+                                <div class="drop-down_editor" id="skill_immigration">Skilled Immigration</div>
+                                <div class="drop-down_editor" id="study">Study Permit</div>
+                                <div class="drop-down_editor" id="tourist">Tourist Visa</div>
+                                <div class="drop-down_editor" id="Sponser" >Sponsership</div>
+                                <div class="drop-down_editor" id="Work_Permit" >Work Permit</div>
+                                <div class="drop-down_editor" id="PRC" >PR Renewal & Citizenship</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav2-editor" id="Blog">
+                        Blog
+                        <div id="Blog_drop">
+                            <div id="drop_list-3">
+                                <div class="drop-down_editor" id="Client_blog">Client Blog</div>
+                                <div class="drop-down_editor" id="QandA_blog">Q&A Blog</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav2-editor" id="Stories">
+                        Success Stories
+                        <div id="Success_drop">
+                            <div id="drop_list-2">
+                                <div class="drop-down_editor" id="Client_gallery">Gallery</div>
+                                <div class="drop-down_editor" id="Client_stories">Success Stories</div>
+                                <div class="drop-down_editor" id="Honest_reviews" >Honest Reviews</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav2-editor" id="Locations">
+                        Our Location
+                        <div id="Location_drop">
+                            <div id="drop_list-4">
+                                <div class="drop-down_editor" id="canada">Canada</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav2-editor" id="Call_back">Request a call back</div>
+                    <div class="nav2-button-container">
+                        <input  class="nav2-button-editor" id="Apply" type="button" value="Apply Now" />
+                        <input  class="nav2-button-editor" id="Virtual_assist" type="button" value=" Need Assistance ?"/>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+        <main>
+            <article id="banner">
+                <img id="img-1" src="/Include/Images/1.shutterstock_202324936.jpg"/>
+                <img id="img-2" src="/Include/Images/3.shutterstock_1058737772.jpg"/>
+                <img id="img-3" src="/Include/Images/4shutterstock_1180987891.jpg"/>
+                <img id="img-4" src="/Include/Images/6.shutterstock_1633879534.jpg"/>
+                <img id="img-5" src="/Include/Images/2.shutterstock_524925712.jpg"/>
+                
+                <div class="element_wrapper">
+                   
+                    <div id="banner_display">
+                        
+                        <h2 class="banner-h2_editor"><strong>Dream</strong> Big,<strong>Work</strong> Hard, and <strong>Follow</strong> Us.</h2>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article class="form">
+
+                <div class="regis-text">
+
+                    <h2> <strong>Submit</strong> Our Web Form To <strong>Get</strong> In Touch. </h2>
+
+                </div>
+
+                <div id="regis_form">
+                    <div id="form_wrapper">
+                        
+                        <h2 id="form_head">Get In Touch With Us</h2>
+                        <div id="form_sub_head">Share Your Information With Us and We'll Get Back To You</div>
+                        
+                        <form id="I-form">
+                            
+                            <div class="form-element_container">
+                                
+                                <input placeholder="First Name" type="text" id="F_name" class="banner-input_editor" />
+                                <input placeholder="Last Name" type="text" id="L_name" class="banner-input_editor" />
+                            
+                            </div>
+                            
+                            <div class="form-element_container">
+                        
+                                <input placeholder="Email" type="text" id="Email" class="banner-input_editor" />
+                                <input placeholder="Phone" type="tel" id="Phone" class="banner-input_editor" />
+                        
+                            </div>
+
+                            <div class="form-element_container">
+                                <select name="Country" id="Country" class="banner-input_editor">
+                            
+                                    <option value="" disabled selected>Country Of Residence</option>
+                                    <option value="US">Uinted States</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="India">India</option>
+                            
+                                </select>
+                            
+                                <select name="Visa_type" id="Visa_type" class="banner-input_editor">
+                                
+                                    <option value="" disabled selected>Visa Type</option>
+                                    <option>Skilled Immigration</option>
+                                    <option>Study Permit</option>
+                                    <option>Tourist Visa</option>
+                                    <option>Sponsership</option>
+                                    <option>Work Permit</option>
+                                    <option>PR Renewal & Citizenship</option>
+                            
+                                </select>
+                            </div>
+
+                            <div class="form-element_container">
+                                <select name="age" id="age" class="banner-input_editor">
+                            
+                                    <option value="" disabled selected>Age Range</option>
+                                    <option value="age18_45">18 - 45</option>
+                                    <option value="age45">45 +</option>
+                            
+                                </select>
+                            
+                            </div>
+                            <input id="submit" value="Submit" name="submit" type="button"/>
+                        </form>
+                    </div>
+                </div>
+            </article>
+
+            <article id="Road_MAP">
+                <div id="roadmap_HEAD">
+                    
+                    <h1>ROAD MAP TO YOUR <strong>DREAMS</strong></h1>
+                
+                </div>
+                <div id="roadmap_para">
+                    Get started with Visa Masters Canada effortlessly.<br> 
+                    Register online, and our experienced team will guide you through the immigration process, ensuring your skills and experience are tailored to your destination's requirements. 
+                    <span class="highlight">Your journey towards a new chapter in life begins here, with Visa Masters Canada as your trusted partner in immigration.</span>
+                </div>
+                <div id="roadmap_para2">
+                    Continuing your immigration journey with Visa Masters Canada means you're not alone. We provide expert advice, handle paperwork, and keep you informed at every step. 
+                    Our commitment is to make your transition smooth, your dreams a reality, and your new life an exciting adventure. Join us today, and let's embark on this transformative journey together.
+                </div>
+                <hr>
+
+                <section id="MAP">
+
+                    <div id="Register" class="map-element_editor">
+                        <div id="regis_wrapper">
+                            <h2 class="map-h2_editor">Registeration</h2>
+                            <p class="map-p_editor">
+                                "Unlock a world of <br>opportunities – Register with us online today and take the first step towards a brighter future."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="time_response" class="map-element_editor">
+                        <div id="response_wrapper">
+                            <h2 class="map-h2_editor">On-time Response</h2>
+                            <p class="map-p_editor">
+                                "At Visa Master Canada, <br>we pride ourselves on providing swift and timely responses to ensure your immigration inquiries are addressed promptly."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="understand_process" class="map-element_editor">
+                        <div id="process_wrapper">
+                            <h2 class="map-h2_editor">The Process</h2>
+                            <p class="map-p_editor">
+                                "Visa Master Canada simplifies<br> immigration with a <br>step-by-step process, expert guidance, and personalized support, making your journey efficient and successful."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="join_us" class="map-element_editor">
+                        <div id="joinus_wrapper">
+                            <h2 class="map-h2_editor">Join Us</h2>
+                            <p class="map-p_editor">
+                                "Join Visa Master Canada <br>for expert immigration guidance, personalized support, and a brighter future in your chosen destination.<br> Join us today!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="submission" class="map-element_editor">
+                        <div class="submission_wrapper">
+                            <h2 class="map-h2_editor">Application Submission</h2>
+                            <p class="map-p_editor">
+                                "Visa Master Canada streamlines <br>application submission, ensuring precision, completeness, and timely processing for your immigration success. <br>Submit with confidence."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="fly" class="map-element_editor">
+                        <div id="fly_wrapper">
+                            <h2 class="map-h2_editor">Ready To Fly</h2>
+                            <p class="map-p_editor">
+                                "Visa Master Canada:<br> Your partner for a seamless immigration journey. Get ready to fly to your dream destination with confidence!"
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+            </article>
+            <article id="choose_your_VISA">
+                <div id="visa_head">
+
+                    <h1>CHOOSE YOUR <strong>VISA</strong></h1>
+
+                </div>
+
+                <div id="visa_para">
+                    "Choosing your visa is a crucial step on your immigration journey, and at Visa Master Canada, we're here to guide you through the process."
+                    <br>
+                    Our team of experts will help you explore and select the visa option that aligns perfectly with your goals and aspirations, ensuring a smooth and successful path to your dream destination.
+                </div>
+                <hr>
+                <section class="visa">
+
+                    <div class="visa_ele_container-1">
+                        <div id="ele1_pic"></div>
+                        <div class="visa_ele_wrapper">
+                            <div id="study_visa"></div>
+                            <h2 class="visa-h2_editor">
+                                STUDY VISA
+                            </h2>
+                            <hr class="visa-hr">
+                            <p class="visa-p_editor">
+                                When it comes to pursuing your educational dreams in Canada, Visa Master Canada is your trusted partner. 
+                                We specialize in study permit applications, providing comprehensive support to help you secure the necessary permits and embark on a transformative educational journey in Canada.
+                            </p>
+                            <input class="visa-button_editor" id="visa-button1" type="button" value="Let's Talk More" />
+                        </div>
+                    </div>
+
+                    <div class="visa_ele_container-2">
+                        <div id="ele2_pic"></div>
+                        <div class="visa_ele_wrapper">
+                            <div id="work_visa"></div>
+                            <h2 class="visa-h2_editor">
+                                WORK VISA
+                            </h2>
+                            <hr class="visa-hr">
+                            <p class="visa-p_editor">
+                                Cultivating a successful career in Canada begins with a work permit, and Visa Master Canada is here to make that journey smooth. 
+                                Our experts specialize in work permit applications, ensuring you have the necessary documents and support to kickstart your career adventure in Canada.
+                            </p>
+                            <input class="visa-button_editor" id="visa-button2" type="button" value="Let's Talk More" />
+                        </div>
+                    </div>
+
+                    <div class="visa_ele_container-3">
+                        <div id="ele3_pic"></div>
+                        <div class="visa_ele_wrapper">
+                            <div id="tourist_visa"></div>
+                            <h2 class="visa-h2_editor">
+                                TOURIST VISA
+                            </h2>
+                            <hr class="visa-hr">
+                            <p class="visa-p_editor">
+                                Explore Canada's beauty with Visa Master Canada's tourist visa expertise. 
+                                We meticulously prepare your application, making your visit hassle-free and memorable, <br>creating unforgettable moments in the <br>land of <br>natural wonders.
+                            </p>
+                            <input class="visa-button_editor" id="visa-button3" type="button" value="Let's Talk More" />
+                        </div>
+                    </div>
+
+                    <div class="visa_ele_container-4">
+                        <div id="ele4_pic"></div>
+                        <div class="visa_ele_wrapper">
+                            <div id="sponsership"></div>
+                            <h2 class="visa-h2_editor">
+                                SPONSERSHIP
+                            </h2>
+                            <hr class="visa-hr">
+                            <p class="visa-p_editor">
+                                Explore Canada's beauty with Visa Master Canada's tourist visa expertise. 
+                                We meticulously prepare your application, making your visit hassle-free and memorable, <br>creating unforgettable moments in the <br>land of <br>natural wonders.
+                            </p>
+                            <input class="visa-button_editor" id="visa-button3" type="button" value="Let's Talk More" />
+                        </div>
+                    </div>
+                </section>
+
+                <section id="assesment">
+                    <div id="assesment_banner">
+                        <div id="assesment_ad">
+                            <h2 class="assesment-h2_editor">CONTACT <br>THE PROFESSIONAL IMMIGRATION <br>CONSULTANT TODAY</h2>
+                            <input value="Get Your Assesment Today!" class="assesment-button_editor" id="assesment_button"/>
+                        </div>
+                    </div>
+                </section>
+
+            </article>
+            
+            <article id="other-visa-options">
+                <div id="ovo-head">
+                    <h1>
+                        OTHER VISA OPTIONS
+                    </h1>
+                </div>
+                <div id="ovo-cards">
+                    <div class="ovo-1-foreground">
+                        <div id="ovo-1-background" >
+                        </div>
+                        <div class="card-element-container">
+
+                            <div class="ovo-card-head">Sponsership</div>
+                            <div class="ovo-para-test">
+                                Visa Master Canada<br> offers sponsorship visas for individuals seeking temporary residency or work opportunities in Canada, helping them secure legal status and pursue their goals in the country.
+                            </div>
+        
+                            <input class="ovo-card-button" type="button" value="Let's Talk More" >
+                        
+                        </div>
+                    </div>
+
+                    <div class="ovo-2-foreground">
+                        <div id="ovo-2-background" >
+                        </div>
+                        <div class="card-element-container-2">
+
+                            <div class="ovo-card-head">PR-Renewal & Citizenship</div>
+                            <div class="ovo-para-test">
+                                Visa Masters Canada <br>assists with PR renewal and citizenship applications, guiding you through the process with expertise and efficiency.
+                            </div>
+        
+                            <input class="ovo-card-button" type="button" value="Let's Talk More" >
+                        
+                        </div>
+                    </div>
+
+                    <div class="ovo-3-foreground">
+                        <div id="ovo-3-background" >
+                        </div>
+                        <div class="card-element-container-3">
+
+                            <div class="ovo-card-head">Skilled Immigration</div>
+                            <div class="ovo-para-test">
+                                Visa Masters Canada <br>specializes in skilled immigration, offering tailored solutions to help you achieve your immigration goals seamlessly.
+                            </div>
+        
+                            <input class="ovo-card-button" type="button" value="Let's Talk More" >
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+            <article id="cards">
+                <div id="description_head">
+                    
+                    <h1>WHY <strong>VISA MASTER CANADA</strong> IMMIGRATION AND EDUCATION</h1>
+                
+                </div>
+                <div id="cards_para">  
+                    Visa Masters Canada is your trusted partner on your immigration journey. With years of experience, personalized guidance, and a commitment to efficiency, we simplify the complex process of moving to a new country. 
+                    <br>
+                    Our dedication to transparency, comprehensive support, and staying updated with evolving immigration policies ensures your success. 
+                    <span class="highlight">When you choose Visa Masters Canada, you're choosing a path to a brighter future, where your dreams take center stage.</span>
+                </div>
+                
+                <hr>
+                <section id="information">
+                    <div id="ele1-grid">
+                        <h2>One Step Service</h2>
+                        <p>
+                            We can provide one stop service including college application, student visa application, post graduate work permit application and permanent resident application.
+                        </p>
+                    </div>
+
+                    <div id="ele2-grid">
+                        <h2>Authorized Agent</h2>
+                        <p>
+                            We are the authorized agent of Seneca College, Centennial College and J. Addision School in Hong Kong.
+                        </p>
+                    </div>
+                    <div id="ele3-grid">
+                        <h2>Professional Advice</h2>
+                        <p>
+                            Our Immigration Consultants include Regulated Canadian Immigration Consultant and Chartered Professional Accountant. We can provide professional advice on study, immigration and tax planning.
+                        </p>
+                    </div>
+                    <div id="ele4-grid">
+                        <h2>Multi-Location</h2>
+                        <p>
+                            We have offices in both Hong Kong and Toronto to ensure that we are bring the highest quality of services to our clients.
+                        </p>
+                    </div>
+                    
+                    <div id="ele5-grid">
+                        <h2>Concierge Service</h2>
+                        <p>
+                            Our concierge service can assist you to have a smooth transition from Hong Kong to Canada. From bank account opening to ID application, we can help you to settle down as soon as possible once you arrive Toronto.
+                        </p>
+                    </div>
+
+                    <div id="ele6-grid">
+                        <h2>In Depth Knowledge</h2>
+                        <p>
+                            Our Immigration Consultants in Canada can provide in depth information about the program that you would like to apply and other latest information about Canada.
+                        </p>
+                    </div>
+                    
+                </section>
+            </article>
+            
+            <article id="user-blog">
+                <div id="user-blog-head">
+                    <h1>
+                        WRITE US A<strong>REVIEW.</strong>
+                    </h1>
+                </div>
+                <div id="user-blog-form-container">
+                    
+                    <form class="user-blog-form">
+                        <div class="form-element_container">
+                            <input type="text" class="blog-form-fields" placeholder="First Name"/>
+                            <input type="text" class="blog-form-fields" placeholder="Last Name"/>
+                        </div>    
+                        <textarea class="blog-textfields" placeholder="Write Your Review..." rows="25" cols="110"></textarea> 
+                        <input type="submit" class="blog-btn" />
+                    </form>
+                </div>
+            </article>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

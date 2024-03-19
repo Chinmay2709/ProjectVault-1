@@ -1,0 +1,244 @@
+#cards{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#description_head{
+    padding: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("/Include/Images/maple.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+#cards_para{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #555555;
+    width: 70%;
+    margin: 20px;
+    height: fit-content;
+    font-size: 15px;
+
+}
+
+#cards_para2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #555555;
+    width: 90%;
+    margin-bottom: 50px;
+    height: fit-content;
+    font-size: 15px;
+
+}
+#information{
+
+    width: 80%;
+    margin: 40px;
+    display: grid;
+    font-size: 15px;
+    gap: 50px;
+    
+
+}
+
+#ele1-grid{
+
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 15%;
+    background-image: url("/Include/Images/onestep.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}
+
+#ele2-grid{
+
+    grid-row: 1;
+    grid-column: 2;
+    padding-left: 15%;
+    background-image: url("/Include/Images/authorize.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}
+
+#ele3-grid{
+    grid-row: 1;
+    grid-column: 3;
+    padding-left: 15%;
+    background-image: url("/Include/Images/advice.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    
+}
+#ele4-grid{
+    grid-row: 2;
+    grid-column: 1;
+    padding-left: 15%;
+    background-image: url("/Include/Images/worldwide.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+#ele5-grid{
+    grid-row: 2;
+    grid-column: 2;
+    padding-left: 15%;
+    background-image: url("/Include/Images/bellboy.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+#ele6-grid{
+    grid-row: 2;
+    grid-column: 3;
+    padding-left: 15%;
+    background-image: url("/Include/Images/knowledge.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+
+#Road_MAP{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#roadmap_HEAD{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    padding: 35px;
+
+}
+
+#roadmap_para{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #555555;
+    width: 70%;
+    margin: 20px;
+    height: fit-content;
+    font-size: 15px;
+
+}
+
+#roadmap_para2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #555555;
+    width: 90%;
+    margin-bottom: 50px;
+    height: fit-content;
+    font-size: 15px;
+
+}
+
+#MAP{
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+    width: 80%;
+    font-size: 15px;
+}
+
+#Register{
+    
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url("/Include/Images/Registration.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 30px;
+
+}
+
+#time_response{
+
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url("/Include/Images/response.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 30px;
+
+}
+
+#understand_process{
+
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url("/Include/Images/approach.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 30px;
+    
+
+}
+
+#join_us{
+
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url("/Include/Images/joinus.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 30px;
+
+}
+
+#submission{
+
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url("/Include/Images/submission.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 30px;
+
+}
+
+#fly{
+
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url("/Include/Images/airplane.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-size: 30px;
+
+}
